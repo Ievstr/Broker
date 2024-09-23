@@ -1,0 +1,19 @@
+.logo {
+  display: inline-block
+}
+.logo__img {
+  width: 196px;
+  margin-bottom: 10px
+}
+.logo__text {
+  color: #959fb0
+}
+@media (max-width:1200px) {
+  .logo__img {
+    width: 175px;
+    margin-bottom: 0
+  }
+  .logo__text {
+    display: none
+  }
+}
